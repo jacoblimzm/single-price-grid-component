@@ -2,6 +2,10 @@ body {
     font-size: 1rem;
     font-family: 'Karla', sans-serif;
     color: hsl(204, 43%, 93%);
+<<<<<<< HEAD
+=======
+    background-color: hsl(204, 43%, 93%);
+>>>>>>> Resolve Border Radius
 }
 
 h1 {
@@ -22,9 +26,15 @@ h2 {
 }
 
 .row {
+<<<<<<< HEAD
     margin: 5% 25%;
     
 }
+=======
+    margin: 5% 25%
+}
+
+>>>>>>> Resolve Border Radius
 /* Top Container */
 
 .top-text {
@@ -32,7 +42,13 @@ h2 {
     margin: 0%;
 
 }
+<<<<<<< HEAD
 .top-container {
+=======
+
+.top-container {
+    border-radius: 20px 20px 0 0;
+>>>>>>> Resolve Border Radius
     background-color:#fff;
     padding: 6%;
 }
@@ -43,6 +59,10 @@ h2 {
     font-size: 2rem;
 }
 .middle-container {
+<<<<<<< HEAD
+=======
+    border-radius: 0 0 0 5%;
+>>>>>>> Resolve Border Radius
     background-color: hsl(179, 62%, 43%);
     padding: 6%;
 }
@@ -60,6 +80,27 @@ h2 {
 }
 
 .bottom-container {
+<<<<<<< HEAD
     background-color: hsl(179, 58%, 52%);
     padding: 6%;
 }
+=======
+    border-radius: 0 0 5% 0;
+    background-color: hsl(179, 58%, 52%);
+    padding: 6%;
+}
+
+@media (max-width: 780px) {
+    .middle-container {
+        border-radius: 0;
+        background-color: hsl(179, 62%, 43%);
+        padding: 6%;
+    }
+
+    .bottom-container {
+        border-radius: 0 0 5% 5%;
+        background-color: hsl(179, 58%, 52%);
+        padding: 6%;
+}
+}
+>>>>>>> Resolve Border Radius
